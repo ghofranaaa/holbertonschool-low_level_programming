@@ -16,5 +16,6 @@ printf("%d", x);
 
 x++;
 }
+printf("\n");
 return (0);
 }
