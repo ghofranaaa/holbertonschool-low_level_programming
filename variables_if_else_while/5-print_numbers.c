@@ -8,11 +8,12 @@
 **/
 int main(void)
 {
-int x;
+int x = 0;
 
-for (x = 0; x < 10; x++)
+while (x <= 10)
 {
 printf("%d", x);
+x++;
 }
 return (0);
 }
