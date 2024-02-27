@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
 * main - Entry point of program
 * Desription: using main function for printing Fizz and Buzz for
 * multiples of 3, 5 and both of them,
