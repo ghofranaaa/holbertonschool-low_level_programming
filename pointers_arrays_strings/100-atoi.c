@@ -9,32 +9,18 @@
  **/
 int _atoi(char *s)
 {
-int a = 0;
-int b = 1;
+int a = 1;
+unsigned int b = 0;
 
+do {
 if (*s == '-')
-{
-b = -1;
-s++;
-}
-else if (*s == '+')
-{
-s++;
-}
-
-
-while (*s)
-{
-if (*s >= '0' && *s <= '9')
-{
-a = a * 10 + (*s - '0');
-}
-else
-{
-
+a *= -1;
+else if (*s >= '0' && *s <= '9')
+b = (b * 10) + (*s - '0');
+else if (b > 0)
 break;
-}
-s++;
-}
-return (a * b);
+} while (*s++);
+
+return (b * a);
+
 }
