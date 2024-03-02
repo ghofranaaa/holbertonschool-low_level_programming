@@ -4,7 +4,7 @@
 /**
  * *string_toupper - a function that changes all lowercase letters
  * to uppercase.
- * *: pointer to a string.
+ * @s: pointer to a string.
  * Description: changing all lowercase letters to uppercase.
  * Return: uppercase.
  */
@@ -21,5 +21,4 @@ s[i] = s[i] - ('a' - 'A');
 }
 }
 return (s);
-
 }
