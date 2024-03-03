@@ -27,8 +27,12 @@ else
 {
 _putchar(',');
 _putchar(' ');
-_putchar((x / 10) + '0');
-_putchar((x % 10) + '0');
+if (x < 10)
+
+	_putchar(' ');
+else
+_putchar(x / 10 + '0');
+_putchar(x % 10 + '0');
 }
 }
 _putchar('\n');
