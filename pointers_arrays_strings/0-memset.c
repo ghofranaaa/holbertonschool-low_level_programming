@@ -17,7 +17,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 	while (count <= n)
 	{
-		p[n] = b;
+		p[count] = b;
 		count += 1;
 	}
 
