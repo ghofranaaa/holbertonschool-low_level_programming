@@ -1,7 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+
 #include <stdio.h>
+#include <string.h>
+
 /* Function prototypes */
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
@@ -23,5 +26,6 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
+char *_memset(char *s, char b, unsigned int n);
 
 #endif /* MAIN_H */
