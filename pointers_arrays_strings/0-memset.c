@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * *_memset - takes pointer to a data type as parameter
  * and updates the value of it.
