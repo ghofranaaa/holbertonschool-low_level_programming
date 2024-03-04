@@ -5,7 +5,7 @@
  * _atoi - a function that convert a string.
  * @s: pointer to the string.
  * Description: converting a string to an integer.
- * Return: 0.
+ * Return: integer value of the converted string.
  **/
 int _atoi(char *s)
 {
