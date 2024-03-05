@@ -24,5 +24,5 @@ int i = 0;
 	{
 	sum_s += a[i * size + (size - 1 - i)];
 	}
-	printf("%d, %d", sum_p, sum_s);
+	printf("%d, %d\n", sum_p, sum_s);
 }
