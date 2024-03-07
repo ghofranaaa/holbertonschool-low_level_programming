@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
-* _sqrt_recursion - a function that returns the natural
+ * _sqrt_recursion - a function that returns the natural
  * square root of a number.
  * @i: integer.
  * @n: the number.
