@@ -5,14 +5,14 @@
 /**
  * _sqrt_recursion - a function that returns the natural
  * square root of a number.
- * @i: integer.
  * @n: the number.
  * Description: returning the natural square root of a number.
  * Return: the natural square root oof n.
  **/
-int _sqrt_recursion(int n)
 
+int _sqrt_recursion(int n)
 {
+
 	return (_sqr(n, 1));
 }
 
