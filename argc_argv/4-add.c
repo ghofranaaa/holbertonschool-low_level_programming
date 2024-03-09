@@ -10,19 +10,16 @@
  * Return: 0, otherwise 1 .
  **/
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	char *s;
 	int n = 0;
+	char *s;
 
 	while (--argc)
 	{
 		for (s = argv[argc]; *s; s++)
-		{
 			if (*s < '0' || *s > '9')
-				printf("Error\n");
-			return (1);
-		}
+				return (printf("Error\n"), 1);
 		n = n + (atoi(argv[argc]));
 	}
 	printf("%d\n", n);
