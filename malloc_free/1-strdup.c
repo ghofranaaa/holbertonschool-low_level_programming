@@ -32,5 +32,6 @@ for (i = 0; i < len; i++)
 }
 p[len] = '\0';
 return (p);
+free(p);
 }
 
