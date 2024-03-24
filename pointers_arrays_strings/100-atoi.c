@@ -21,6 +21,6 @@ else if (b > 0)
 break;
 } while (*s++);
 
-return (b * a);
+return (b *a);
 
 }
