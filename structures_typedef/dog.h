@@ -2,6 +2,7 @@
 #define DOG
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * struct dog- description of the dog
